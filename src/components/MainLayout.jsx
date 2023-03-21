@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Footer from './Footer';
+import Navbar from './Navbar';
 
-const MainLayout = ({children}) => {
+const MainLayout = ({ children }) => {
   return (
-    <div>{children}</div>
-  )
-}
+    <div>
+      <Navbar />
+      {children}
+      <Footer />
+    </div>
+  );
+};
 
-export default MainLayout
+export default MainLayout;

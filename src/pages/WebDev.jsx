@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import styles from '../styles/WebDev.module.css';
 
 const WebDev = () => {
   return (
-    <div>WebDev Page</div>
+    <div className={styles.title}>WebDev Page</div>
   )
 }
 
