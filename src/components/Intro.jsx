@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import styles from '../styles/Intro.module.css';
-import kr from '../assets/kr2.png';
+import kr from '../../public/assets/kr2.png';
 import Circle from './Circle';
 const Intro = () => {
   return (
@@ -27,14 +27,17 @@ const Intro = () => {
           collaboratively.
           <br />
           <br />
-          Front-End: HTLM5, CSS3, JavaScript, React, Redux
+          <span className={styles.skills}>Front-End:</span> HTLM5, CSS3,
+          JavaScript, React, Redux
           <br />
-          Back-End: NodeJS, MySQL, Oracle, MongoDB
+          <span className={styles.skills}>Back-End:</span> NodeJS, MySQL,
+          Oracle, MongoDB
           <br />
-          Tools & Methods: Git, Github, Render, Heroku, Netlify, Mobile
-          Development, TDD
+          <span className={styles.skills}>Tools & Methods:</span> Git, Github,
+          Render, Heroku, Netlify, Mobile Development, TDD
           <br />
-          Professional: Remote Pair-Programming, Teamwork, Mentoring
+          <span className={styles.skills}>Professional:</span> Remote
+          Pair-Programming, Teamwork, Mentoring
           <br />
           <br />
           If you have an application you are interested in developing, a feature
