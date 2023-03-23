@@ -46,3 +46,45 @@
   height: 40%;
   object-fit: cover;
 }
+
+/* MOBILE DEVICES */
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .block1 {
+    gap: 20px;
+    padding: 10px 0 0 10px;
+    align-items: center;
+  }
+
+  .about {
+    padding: 0 10px 0 10px;
+    font-size: 14px;
+  }
+
+  .skillsContainer {
+    padding: 0 10px 0 10px;
+  }
+  .skills {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .callToAction {
+    padding: 0 10px 0 10px;
+  }
+
+  .devTitle {
+    font-size: 12px;
+  }
+
+  .block2 {
+    display: none;
+  }
+}

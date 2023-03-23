@@ -11,6 +11,7 @@ const Navbar = () => {
           <li><Link href="/WebDev">MOBILE DEVELOPMENT</Link></li>
           <li><Link href="/Contact">CONTACT</Link></li>
         </ul>
+        <span className="material-symbols-outlined hamburger">menu</span>
       </nav>
     </div>
   );

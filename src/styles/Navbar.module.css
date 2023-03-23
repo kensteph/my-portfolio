@@ -28,3 +28,13 @@
   text-decoration: none;
   color: lightgray;
 }
+
+/* MOBILE DEVICES */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 2rem 0 2rem;
+  }
+  .menuLinks {
+    display: none;
+  }
+}
