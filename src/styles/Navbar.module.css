@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 5rem 0 5rem;
+  position: relative;
 }
 
 .logo {
@@ -29,6 +30,10 @@
   color: lightgray;
 }
 
+.mobileMenu a {
+  text-decoration: none;
+  color: lightgray;
+}
 /* MOBILE DEVICES */
 @media screen and (max-width: 480px) {
   .container {
@@ -36,5 +41,22 @@
   }
   .menuLinks {
     display: none;
+  }
+
+  /* MOBILE MENU */
+  .mobileMenu {
+    color: white;
+    background-color: black;
+    width: 50vw;
+    height: calc(100vh - 50px);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 10px;
+    gap: 20px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    z-index: 1000;
   }
 }

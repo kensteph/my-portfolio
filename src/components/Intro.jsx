@@ -51,8 +51,8 @@ const Intro = () => {
             feature that you need to build, or a project that needs coding. I’d
             love to help with it!
           </p>
-          <SocialMedia />
         </div>
+        <SocialMedia />
       </div>
       <div className={styles.block2}>
         <Image

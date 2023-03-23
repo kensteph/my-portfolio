@@ -71,6 +71,10 @@ body {
   display: none;
 }
 
+.SocialMedia {
+  display: flex;
+  gap: 1rem;
+}
 /* MOBILE DEVICES */
 @media screen and (max-width: 480px) {
   .hamburger {

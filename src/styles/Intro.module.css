@@ -59,7 +59,7 @@
   }
 
   .block1 {
-    gap: 20px;
+    gap: 10px;
     padding: 10px 0 0 10px;
     align-items: center;
   }
@@ -72,11 +72,14 @@
   .skillsContainer {
     padding: 0 10px 0 10px;
   }
+
   .skills {
     font-size: 14px;
     font-weight: bold;
   }
+
   .callToAction {
+    display: none;
     padding: 0 10px 0 10px;
   }
 
