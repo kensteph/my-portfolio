@@ -3,6 +3,7 @@ import React from 'react';
 import styles from '../styles/Intro.module.css';
 import kr from '../../public/assets/kr2.png';
 import Circle from './Circle';
+import SocialMedia from './SocialMedia';
 
 const Intro = () => {
   return (
@@ -50,6 +51,7 @@ const Intro = () => {
             feature that you need to build, or a project that needs coding. I’d
             love to help with it!
           </p>
+          <SocialMedia />
         </div>
       </div>
       <div className={styles.block2}>
