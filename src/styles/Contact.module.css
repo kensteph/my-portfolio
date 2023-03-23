@@ -51,3 +51,39 @@
 .btn:active {
   transform: scale(0.9);
 }
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: normal;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    height: calc(100vh - 50px);
+  }
+
+  .title {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .call {
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+  }
+  .contactForm {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    z-index: 999;
+    text-align: center;
+  }
+}
