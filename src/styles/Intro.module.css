@@ -1,9 +1,10 @@
 .container {
   width: 100%;
-  height: calc(100vh - 50px);
+  height: 100vh;
+  padding-top: 50px;
+  overflow: hidden;
   display: flex;
   position: relative;
-  overflow: hidden;
 }
 
 .block1 {

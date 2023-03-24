@@ -4,7 +4,8 @@ import Circle from '../components/Circle';
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <Circle backgroundColor="orange" top="-10vh" />
+      <Circle backgroundColor="orange" top="-27vh"/>
+      <br />
       <h1 className={styles.title}>GET IN TOUCH</h1>
       <p className={styles.call}>
         If you have an application you are interested in developing, a feature
