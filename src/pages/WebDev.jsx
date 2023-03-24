@@ -11,6 +11,7 @@ const WebDev = ({ projects }) => {
         title="Web Development"
         description="Kender Romain Web development page"
       />
+      <br />
       <h1 className={styles.title}>WEB DEVELOPMENT</h1>
       <div className={styles.container}>
         {projects.map((project) => (

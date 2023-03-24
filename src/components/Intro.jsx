@@ -8,8 +8,8 @@ import SocialMedia from './SocialMedia';
 const Intro = () => {
   return (
     <div className={styles.container}>
-      <Circle backgroundColor="orange" top="-50vh" left="-50vh" />
-      <Circle backgroundColor="green" right="-50vh" />
+      <Circle backgroundColor="orange" top="-40vh" left="-80vh" />
+      <Circle backgroundColor="green" right="-90vh" />
       <div className={styles.block1}>
         <h1 className={styles.title}>
           Hello there👋!
